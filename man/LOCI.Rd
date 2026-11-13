@@ -32,5 +32,3 @@ cls_observations <- LOCI(dataset=X, alpha=0.5, nn=20, k=1)$class
 # Remove outliers from dataset
 X <- X[cls_observations=='Inlier',]
 }
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }

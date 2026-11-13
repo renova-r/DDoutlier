@@ -29,5 +29,4 @@ sort(outlier_score, decreasing = TRUE)
 
 # Inspect the distribution of outlier scores
 hist(outlier_score)
-}\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }
+}

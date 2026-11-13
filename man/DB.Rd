@@ -27,5 +27,3 @@ cls_observations <- DB(dataset=X, d=1, fraction=0.05)$classification
 # Remove outliers from dataset
 X <- X[cls_observations=='Inlier',]
 }
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }
